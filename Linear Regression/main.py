@@ -8,8 +8,8 @@ from sklearn.linear_model import LinearRegression
 url = ""
 dataset = pd.read_csv(url)
 
-dataset.plot(x='MinTemp', y='MaxTemp',style='o')
-plt.title('Min & Max Temp')
-plt.xlabel("Mintemp")
-plt.ylabel("Maxtemp")
+dataset.plot(x='skill1', y='skill2',style='o')
+plt.title('Skill 1 & Skill2')
+plt.xlabel("Skill1")
+plt.ylabel("Skill2")
 plt.show()
